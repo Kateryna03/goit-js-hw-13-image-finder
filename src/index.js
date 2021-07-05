@@ -1,5 +1,5 @@
 import './sass/main.scss';
-import fetchCountries from './fetchCountries.js';
+import fetchCountries from './apiService';
 import countriesList from './templation/countries-list.hbs';
 import countryCard from './templation/country-card.hbs';
 

@@ -26,6 +26,8 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@pnotify/core": "^5.2.0"
+    "@pnotify/core": "^5.2.0",
+    "basiclightbox": "^5.0.4",
+    "basicslider": "^1.1.5"
   }
 }

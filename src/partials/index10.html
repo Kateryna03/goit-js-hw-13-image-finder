@@ -8,10 +8,30 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
   <body>
-    <div class="countries">
-      <input class="country-search" type="text" placeholder="Country name" />
-      <ul class="countries-list"></ul>
-      <div class="countries-info"></div>
-    </div>
+    <form class="search-form" id="search-form">
+    <input
+    type="text"
+    name="query"
+    autocomplete="off"
+    placeholder="Search images..."
+  />
+  <button type="submit" class="primary-button">Search</button>
+  </form>
+
+  <ul class="gallery"></ul>
+
+ <button
+      type="button"
+      class="btn btn-primary button"
+      data-action="load-more"
+    >
+      <span
+        class="spinner-border spinner-border-sm spinner is-hidden"
+        role="status"
+        aria-hidden="true"
+      ></span>
+
+      <span class="label">Load more</span>
+    </button>
   </body>
 </html>
